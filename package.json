@@ -1,0 +1,50 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "Nexter webpage",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint && eslint source/js/",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrushkova/nexter.git"
+  },
+  "author": "Maria Rushkova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrushkova/nexter/issues"
+  },
+  "homepage": "https://github.com/mrushkova/nexter#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "browser-sync": "2.26.x",
+    "eslint": "7.11.0",
+    "gulp": "4.0.x",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "1.2.x",
+    "gulp-postcss": "^9.0",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "4.1.x",
+    "gulp-sourcemaps": "2.6.x",
+    "node-sass": "^4.14.1",
+    "posthtml-include": "^1.5.0",
+    "stylelint": "13.7.x"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "live-server": "^1.2.1",
+    "normalize.css": "^8.0.1",
+    "del": "^6.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ]
+}
