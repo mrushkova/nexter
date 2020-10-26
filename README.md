@@ -9,7 +9,7 @@ Prototype for website.
 - CSS Grid layout
 - Sass (SCSS)
 - Gulp
-- responsive desktop-first design
+- desktop-first responsive design
 - cross-browser compatibility: Chrome, Firefox, Safari
 
 The layout design is provided by Advanced CSS and Sass Udemy learning course.
