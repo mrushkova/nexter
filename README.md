@@ -1,7 +1,6 @@
-# Nexter
+# ![Nexter](https://github.com/mrushkova/nexter/blob/master/img/logo.png)
 
-One-page web app for real estate agency.
-Prototype for website.
+Real estate agency [website](https://mrushkova.github.io/nexter/) prototype.
 
 ## Technologies
 
